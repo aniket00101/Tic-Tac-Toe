@@ -3,5 +3,5 @@
 The game begins with an empty grid. The first player places their symbol in any one of the nine available cells, followed by the second player. This continues until one player wins by aligning three symbols, or all the cells are filled without a winner, resulting in a draw or a tie.
 Tic Tac Toe is not only fun but also helps improve decision-making skills. It teaches players to think ahead and consider the opponent's moves. In programming, creating a Tic Tac Toe game is often a beginner-level project that involves basic concepts like loops, conditions, arrays, and user input handling.
 While it may seem easy, mastering Tic Tac Toe involves understanding patterns and anticipating the opponent’s strategy. Interestingly, if both players play optimally, the game will always end in a draw, making it a game of perfect information.</p><br>
-<h4 align="center" style="color:gold;">✨ Thank You ✨</h4> 
-<h3 align="center" style="color:#e74c3c;">Created By: Aniket Das</h3>
+<h4 style="color:gold;">✨ Thank You ✨</h4> 
+<h3 style="color:#e74c3c;">Created By: Aniket Das</h3>
