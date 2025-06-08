@@ -1,0 +1,101 @@
+*{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    body{
+        min-height:100vh;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        background:linear-gradient(135deg,#d4fc79 0%,#96e6a1 100%);
+        color:#222;
+    }
+    .glass{
+        backdrop-filter:blur(10px);
+        -webkit-backdrop-filter:blur(10px);
+        background:rgba(255,255,255,0.25);
+        box-shadow:0 8px 32px rgba(0,0,0,0.12);
+        border:1px solid rgba(255,255,255,0.3);
+        border-radius:20px;
+    }
+    h1{
+        margin:40px 0 20px;
+        font-size:2.8rem;
+        font-weight:700;
+        letter-spacing:2px;
+    }
+    .container{
+        height:70vmin;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .game{
+        width:60vmin;
+        height:60vmin;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        gap:2vmin;
+    }
+    .box{
+        width:18vmin;
+        height:18vmin;
+        border:none;
+        font-size:7.5vmin;
+        font-weight:700;
+        color:#333;
+        cursor:pointer;
+        border-radius:15px;
+        transition:transform .18s ease, background .25s ease;
+    }
+    .box:enabled:hover{
+        transform:translateY(-6px) scale(1.04) rotate(-1deg);
+        background:rgba(255,255,255,0.35);
+    }
+    .box:disabled{
+        cursor:default;
+        background:rgba(255,255,255,0.45);
+    }
+    button#reset,
+    button#new-game{
+        margin-top:2rem;
+        padding:1rem 2.5rem;
+        font-size:1.15rem;
+        font-weight:600;
+        border:none;
+        border-radius:50px;
+        cursor:pointer;
+        background:linear-gradient(135deg,#89f7fe 0%,#66a6ff 100%);
+        color:#003366;
+        transition:transform .18s ease, box-shadow .18s ease;
+    }
+    button#reset:hover,
+    button#new-game:hover{
+        transform:translateY(-4px);
+        box-shadow:0 10px 18px rgba(0,0,0,0.13);
+    }
+    .msg-container{
+        position:fixed;
+        inset:0;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:3rem;
+        background:rgba(0,0,0,0.25);
+        z-index:10;
+    }
+    #msg{
+        font-size:6vmin;
+        font-weight:700;
+        padding:1rem 3rem;
+        text-align:center;
+        color:#fff;
+    }
+    .hide{
+        display:none;
+    }
