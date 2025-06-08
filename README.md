@@ -1,4 +1,7 @@
 # Tic-Tac-Toe
-<p>Tic Tac Toe is a two-player game played on a 3×3 grid. Players take turns marking X or O, aiming to get three in a row—horizontally, vertically, or diagonally. It’s a simple yet strategic game that often ends in a draw if both play perfect</p><br>
+<p>Tic Tac Toe is a simple and popular two-player game that is often used to teach the basics of logic, strategy, and programming. It is played on a 3×3 grid, where one player uses the symbol X and the other uses O. The players take turns placing their symbol in an empty cell on the grid. The main objective is to be the first player to get three of their symbols in a row, which can be done horizontally, vertically, or diagonally.
+The game begins with an empty grid. The first player places their symbol in any one of the nine available cells, followed by the second player. This continues until one player wins by aligning three symbols, or all the cells are filled without a winner, resulting in a draw or a tie.
+Tic Tac Toe is not only fun but also helps improve decision-making skills. It teaches players to think ahead and consider the opponent's moves. In programming, creating a Tic Tac Toe game is often a beginner-level project that involves basic concepts like loops, conditions, arrays, and user input handling.
+While it may seem easy, mastering Tic Tac Toe involves understanding patterns and anticipating the opponent’s strategy. Interestingly, if both players play optimally, the game will always end in a draw, making it a game of perfect information.</p><br>
 <h4>Created By:- Aniket das</h4>
 <h6>Thank You</h6>
